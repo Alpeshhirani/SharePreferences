@@ -1,4 +1,6 @@
 # SharePreferences
+============
+```
 Easy way to put and get data and Object for the shared preferences in Android and easy to use.
 
 Preferences preferences;
@@ -21,3 +23,4 @@ String name = preferences.getString("key");
  //remove key and value
  
  preferences.remove("key");
+```
