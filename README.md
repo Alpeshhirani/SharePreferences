@@ -7,7 +7,9 @@ pref = new Preferences(this);
 
 
 //put String
+
 pref.putString("key", "value");
 
 //get String
+
 String name = pref.getString("key");
