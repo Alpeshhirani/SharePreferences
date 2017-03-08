@@ -3,13 +3,21 @@ Easy way to put and get data and Object for the shared preferences in Android an
 
 Preferences preferences;
 
-pref = new Preferences(this);
+preferences = new Preferences(this);
 
 
 //put String
 
-pref.putString("key", "value");
+preferences.putString("key", "value");
 
 //get String
 
-String name = pref.getString("key");
+String name = preferences.getString("key");
+
+//clear preference;
+
+ preferences.clear();
+ 
+ //remove key and value
+ 
+ preferences.remove("key");
