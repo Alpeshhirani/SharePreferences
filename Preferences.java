@@ -1,4 +1,4 @@
-package com.weapplinse.xitix.Activity;
+package com.hirani.Activity;
 
 import android.content.Context;
 import android.content.SharedPreferences;
